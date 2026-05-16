@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NexaBankMS</RootNamespace>
+    <AssemblyName>NexaBankMS</AssemblyName>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>bank.ico</ApplicationIcon>
+    <StartupObject>NexaBankMS.Program</StartupObject>
+    <Version>1.0.0</Version>
+    <Description>NexaBank Management System — Bank Management Application</Description>
+    <Company>NexaBank</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.vb" />
+    <Compile Include="Module1.vb" />
+    <Compile Include="Models.vb" />
+    <Compile Include="DataAccess.vb" />
+    <Compile Include="frmLogin.vb" />
+    <Compile Include="frmDashboard.vb" />
+    <Compile Include="frmCustomers.vb" />
+    <Compile Include="frmTransactions.vb" />
+    <Compile Include="frmEmployeesAndOthers.vb" />
+    <Compile Include="frmReports.vb" />
+  </ItemGroup>
+
+</Project>
